@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: PP mori;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            background-color: darkslategrey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card{
+            height: 70%;
+            width: 25%;
+            background-color: aliceblue;
+            padding: 2vw;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .card img{
+            height: 50%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px;
+        }
+        .card h1{
+            font-size: 2.5vw;
+            margin: 1.5vw 0;
+        }
+        .card h5{
+            font-size: 2vw;
+            color: red;
+            margin-bottom: 1vw;
+        }
+        .btn{
+            background-color: cadetblue;
+            border-radius: 50px;
+            border: none;
+            padding: 1vw 2vw;
+            color: aliceblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://plus.unsplash.com/premium_photo-1661508557554-e3d96f2fdde5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D" alt="">
+
+        <h1>Laura David</h1>
+        <h5>Stranger</h5>
+
+        <button class="btn">Add</button>
+    </div>
+    <script src="card.js"></script>
+</body>
+</html>
